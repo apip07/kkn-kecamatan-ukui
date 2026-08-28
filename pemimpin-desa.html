@@ -86,18 +86,20 @@
                 </div>
             </nav>
 
-            <header class="site-header section-padding-img site-header-image">
+           <!-- Menambahkan custom style langsung agar tidak tertimpa CSS template -->
+            <header class="text-center" style="padding-top: 140px; padding-bottom: 50px; background-color: #f3f5f8;">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 col-12 header-info">
-                            <h1>
-                                <span class="d-block text-primary">Pemimpin Desa</span>
-                                <span class="d-block text-dark">Ukui</span>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-12">
+                            <h1 class="mb-4">
+                                <span class="d-block text-primary">Kesenian dan</span>
+                                <span class="d-block text-dark">Budaya</span>
                             </h1>
+                            <!-- width: 100% dan height: auto menjamin gambar tampil utuh proporsional (TIDAK terpotong sedikitpun) di HP -->
+                            <img src="images/slideshow/pemimpin-desa.jpeg" class="img-fluid shadow-sm" style="border-radius: 15px; width: 100%; height: auto;" alt="Wayang Kulit">
                         </div>
                     </div>
                 </div>
-                <img src="images/slideshow/pemimpin-desa.jpeg" class="header-image img-fluid" alt="Pemimpin Desa Ukui">
             </header>
 
             <!-- BAGIAN YANG DIUBAH: Menggunakan Grid Card dari Bootstrap -->
